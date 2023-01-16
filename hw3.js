@@ -34,7 +34,10 @@ switch (a){
 let sum=0;
 
 for (let i=1;i<=100;i++){
-    sum+=i;
+    if (i%2==0){
+        sum+=i;
+    }
+   
 }
 
 console.log(sum);
@@ -42,7 +45,9 @@ console.log(sum);
 let i=100;
 let sum2=0
 while (i>=0){
-    sum2+=i;
+    if (i%2==0){
+        sum2+=i;
+    }
     i--;
 }
 
